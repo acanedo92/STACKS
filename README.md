@@ -6,5 +6,10 @@ conda install bioconda::stacks
 
 conda install bioconda/label/cf201901::stacks
 
-# Si se compila la instalación compilando, se debe instalar c++ y la librerìa z-lib en linux
 
+# Si se compila la instalación compilando, se debe instalar c++ y la librerìa z-lib en linux
+ https://github.com/vcftools/vcftools.
+ El manual de vcftools se encuentra aquí: https://vcftools.sourceforge.net/man_latest.html
+
+sudo make install
+sudo apt install zlib1g-dev
