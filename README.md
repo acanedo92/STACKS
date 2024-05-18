@@ -7,8 +7,8 @@ Pipeline para realizar control de calidad de reads, recortar la longitud a un ta
 
 # Instalar stacks
 ### Instalar con conda: 
-conda install bioconda::stacks
-conda install bioconda/label/cf201901::stacks
+conda install bioconda::stacks  
+conda install bioconda/label/cf201901::stacks  
 
 ### Descarga directa 
 https://catchenlab.life.illinois.edu/stacks/
