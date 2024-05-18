@@ -1,18 +1,50 @@
-# Instalar vcftools
-sudo apt-get install vcftools
-
-# STACKS
 Pipeline para realizar control de calidad de reads, recortar la longitud a un tamaño específicos, construccion de RAD locus, llamado de SNP's y filtrado de SNP's
 
-# Instalar con conda
-conda install bioconda::stacks
+### Requerimientos:
+1. sudo make install
+2. sudo apt install zlib1g-dev
+3.  instalar c++
 
+### Instalar stacks
+# Instalar con conda: 
+conda install bioconda::stacks
 conda install bioconda/label/cf201901::stacks
 
+# Descarga directa 
+https://catchenlab.life.illinois.edu/stacks/
+$ cd Descargas
+$ tar -vxzf stacks-2.66.tar.gz 
+$ cd  stacks-2.66
+$ less README.md 
+$ ./configure
+$ make
 
-# Si se compila la instalación compilando, se debe instalar c++ y la librerìa z-lib en linux
- https://github.com/vcftools/vcftools.
- El manual de vcftools se encuentra aquí: https://vcftools.sourceforge.net/man_latest.html
+   
+### Instalar vcftools
 
-sudo make install
-sudo apt install zlib1g-dev
+# Instalar con sudo: 
+sudo apt-get install vcftools
+# Instalar con conda
+conda install bioconda::vcftools
+conda install bioconda/label/cf201901::vcftools 
+
+# Clonar repositorio de github 
+$ git clone https://github.com/vcftools/vcftools.git
+$ cd vcftools
+$ git pull https://github.com/vcftools/vcftools.git master
+$ less README.md # ver instrucciones de instalacion
+
+# Descarga directa: 
+https://vcftools.sourceforge.net/man_latest.html
+$ cd Descargas
+$ tar -vxzf vcftools_0.1.13.tar.gz
+$ cd vcftools_0.1.13
+$ less README.md # ver instrucciones de instalacion
+
+* El manual de vcftools se encuentra aquí: https://vcftools.sourceforge.net/man_latest.html
+
+
+
+
+
+
