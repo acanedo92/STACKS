@@ -55,6 +55,7 @@ myPATH=`pwd`
 
 
 # mv popmap $myPATH/3.Call_Stacks
+# mv stacks-dist-extract  $myPATH/3.Call_Stacks
 # cd $myPATH/3.Call_Stacks
 # denovo_map.pl --samples $myPATH/2.gbstrim/ --popmap popmap --out-path ./ -M 3 -n 3 
 
