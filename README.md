@@ -11,41 +11,38 @@ conda install bioconda::stacks
 conda install bioconda/label/cf201901::stacks  
 
 ### Descarga directa 
-https://catchenlab.life.illinois.edu/stacks/
-$ cd Descargas
-$ tar -vxzf stacks-2.66.tar.gz 
-$ cd  stacks-2.66
-$ less README.md 
-$ ./configure
-$ make
+https://catchenlab.life.illinois.edu/stacks/  
+$ cd Descargas  
+$ tar -vxzf stacks-2.66.tar.gz   
+$ cd  stacks-2.66  
+$ less README.md   
+$ ./configure  
+$ make  
 
    
 # Instalar vcftools
 
-### Instalar con sudo: 
+### Instalar con sudo:   
+sudo apt-get install vcftools  
 
-sudo apt-get install vcftools
+### Instalar con conda  
+conda install bioconda::vcftools  
+conda install bioconda/label/cf201901::vcftools   
 
-### Instalar con conda
-conda install bioconda::vcftools
-conda install bioconda/label/cf201901::vcftools 
+### Clonar repositorio de github  
+$ git clone https://github.com/vcftools/vcftools.git  
+$ cd vcftools  
+$ git pull https://github.com/vcftools/vcftools.git master  
+$ less README.md # ver instrucciones de instalacion  
+  
+### Descarga directa:   
+https://vcftools.sourceforge.net/man_latest.html  
+$ cd Descargas  
+$ tar -vxzf vcftools_0.1.13.tar.gz  
+$ cd vcftools_0.1.13  
+$ less README.md # ver instrucciones de instalacion  
 
-### Clonar repositorio de github
-
-$ git clone https://github.com/vcftools/vcftools.git
-$ cd vcftools
-$ git pull https://github.com/vcftools/vcftools.git master
-$ less README.md # ver instrucciones de instalacion
-
-### Descarga directa: 
-
-https://vcftools.sourceforge.net/man_latest.html
-$ cd Descargas
-$ tar -vxzf vcftools_0.1.13.tar.gz
-$ cd vcftools_0.1.13
-$ less README.md # ver instrucciones de instalacion
-
-* El manual de vcftools se encuentra aquí: https://vcftools.sourceforge.net/man_latest.html
+* El manual de vcftools se encuentra aquí: https://vcftools.sourceforge.net/man_latest.html  
 
 
 
