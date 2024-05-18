@@ -5,12 +5,12 @@ Pipeline para realizar control de calidad de reads, recortar la longitud a un ta
 2. sudo apt install zlib1g-dev
 3.  instalar c++
 
-### Instalar stacks
-# Instalar con conda: 
+# Instalar stacks
+### Instalar con conda: 
 conda install bioconda::stacks
 conda install bioconda/label/cf201901::stacks
 
-# Descarga directa 
+### Descarga directa 
 https://catchenlab.life.illinois.edu/stacks/
 $ cd Descargas
 $ tar -vxzf stacks-2.66.tar.gz 
@@ -20,24 +20,24 @@ $ ./configure
 $ make
 
    
-### Instalar vcftools
+# Instalar vcftools
 
-# Instalar con sudo: 
+### Instalar con sudo: 
 
 sudo apt-get install vcftools
 
-# Instalar con conda
+### Instalar con conda
 conda install bioconda::vcftools
 conda install bioconda/label/cf201901::vcftools 
 
-# Clonar repositorio de github
+### Clonar repositorio de github
 
 $ git clone https://github.com/vcftools/vcftools.git
 $ cd vcftools
 $ git pull https://github.com/vcftools/vcftools.git master
 $ less README.md # ver instrucciones de instalacion
 
-# Descarga directa: 
+### Descarga directa: 
 
 https://vcftools.sourceforge.net/man_latest.html
 $ cd Descargas
