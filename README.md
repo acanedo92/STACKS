@@ -42,8 +42,6 @@ $ tar -vxzf vcftools_0.1.13.tar.gz
 $ cd vcftools_0.1.13  
 $ less README.md # ver instrucciones de instalacion  
 
-* El manual de vcftools se encuentra aquí: https://vcftools.sourceforge.net/man_latest.html  
-
 
 
 
