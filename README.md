@@ -5,6 +5,17 @@ Pipeline para realizar control de calidad de reads, recortar la longitud a un ta
 2. sudo apt install zlib1g-dev
 3.  instalar c++
 
+# Instalar cutadapt   
+
+### Instalar con sudo:  
+
+sudo apt install cutadapt  
+
+### Instalar con conda:
+conda install bioconda::cutadapt 
+conda install bioconda/label/cf201901::cutadapt
+
+
 # Instalar stacks
 ### Instalar con conda: 
 conda install bioconda::stacks  
