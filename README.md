@@ -17,10 +17,10 @@ conda install bioconda/label/cf201901::cutadapt
 
 
 # Instalar stacks
-### Instalar con conda: 
-conda create -n Stacks-2.53
-conda activate Stacks-2.53
-conda install Stacks=2.53  -c bioconda
+### Instalar con conda:   
+conda create -n Stacks-2.53  
+conda activate Stacks-2.53  
+conda install Stacks=2.53  -c bioconda  
 
 ### Descarga directa 
 https://catchenlab.life.illinois.edu/stacks/  
