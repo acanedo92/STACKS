@@ -21,6 +21,8 @@ conda install bioconda/label/cf201901::cutadapt
 conda create -n Stacks-2.53  
 conda activate Stacks-2.53  
 conda install Stacks=2.53  -c bioconda  
+denovo_map.pl -v 
+
 
 ### Descarga directa 
 https://catchenlab.life.illinois.edu/stacks/  
